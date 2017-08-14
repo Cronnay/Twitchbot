@@ -1,0 +1,16 @@
+{
+  "name": "fun-play",
+  "version": "1.0.0",
+  "description": "Some fun play",
+  "main": "index.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.6.11",
+    "jquery": "^3.2.1",
+    "tmi.js": "^1.2.1"
+  }
+}

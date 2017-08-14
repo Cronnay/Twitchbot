@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: purple;
+    overflow: hidden;
+    -webkit-app-region: drag;
+}
+
+nav li {
+    -webkit-app-region: no-drag;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+nav li:hover{
+    background-color: #333
+}
+#close:hover{
+    background-color: rgba(255, 20, 20, 1);
+}
+nav span{
+    font-size: 35px;
+}
+
+#meddelande-lista{
+    height: 500px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.collection-name{
+    font-weight: bold;
+}
+.btn{
+    background-color: purple;
+}
+.btn:hover{
+    background-color: rgb(120,0,255);
+}

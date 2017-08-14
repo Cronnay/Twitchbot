@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/design.css">
+
+    <title>My twitch app</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <ul id="nav" class="right">
+                <li><a id="minimize"><span>-</span></a></li>
+                <li><a id="maximize"><span>+</span></a></li>
+                <li><a id="close"><span>&times;</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h3 class="center-align">Twitch dashboard!</h3>
+        <div class="row">
+            <div class="col s12">
+                <ul class="collection with-header"  id="meddelande-lista">
+                    <li class="collection-header"><h3>Meddelanden</h3></li>
+                </ul>
+                <form id="form">
+                    <input type="text" id="text" class="validate" placeholder="Skriv ett meddelande">
+                    <input type="submit" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+
+</body>
+</html>
